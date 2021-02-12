@@ -5,13 +5,13 @@ import Image from "react-bootstrap/Image";
 
 function Title() {
   return (
-    <Container className="someone">
+    // <Container className="someone">
       <Row>
-        <Col>
-          <Jumbotron className="titulo"> <div className="yo"></div></Jumbotron>
+         <Col>
+          <Jumbotron className="titulo"> </Jumbotron>
         </Col>
       </Row>
-    </Container>
+  // </Container>
   );
 }
 
