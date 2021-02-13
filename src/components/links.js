@@ -10,9 +10,9 @@ function Links() {
 
         <Col>
           <Jumbotron className="pikachu">
-          <div class="bg">
+          <div className="bg">
           </div>  
-          <div class="content">
+          <div className="content">
           <h1>Listen</h1>
           </div>
           
