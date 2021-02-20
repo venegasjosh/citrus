@@ -8,7 +8,11 @@ function Title() {
     // <Container className="someone">
       <Row>
          <Col>
-          <Jumbotron className="titulo"> </Jumbotron>
+          <Jumbotron> 
+          <h1 className="titulo">
+            Citrus Lover
+            </h1>
+            </Jumbotron>
         </Col>
       </Row>
   // </Container>
