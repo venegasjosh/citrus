@@ -17,6 +17,11 @@ body {
     color:white
 }
 
+a, a:hover, a:focus, a:active{
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .jumbotron {
 
     background-color: rgba(124, 40, 177, 0);
