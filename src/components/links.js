@@ -14,7 +14,7 @@ function Links() {
           <div className="bg">
           </div>  
           <div className="content">
-          <h1> <a  href="https://open.spotify.com/artist/4S2bbNKVs4gqgSG4hacbnu">Listen </a></h1>
+          <h1> <a onClick={()=> window.open("https://open.spotify.com/artist/4S2bbNKVs4gqgSG4hacbnu")} >Listen </a></h1>
           </div>
           
           </Jumbotron>
@@ -24,7 +24,7 @@ function Links() {
       <Row>
         <Jumbotron className="charmander">
           <Container>
-            <h1> <a  href="https://citruslover.bandcamp.com/album/citrus-lover">Buy Music </a></h1>
+            <h1> <a onClick={()=> window.open("https://citruslover.bandcamp.com/album/citrus-lover")} >Buy Music </a></h1>
           </Container>
         </Jumbotron>
       </Row>
@@ -32,7 +32,7 @@ function Links() {
       <Row>
         <Jumbotron className="bulb" fluid>
           <Container>
-            <h1> <a  href="https://www.bonfire.com/store/citruslover/">Merch </a></h1>
+            <h1> <a onClick={()=> window.open("https://www.bonfire.com/store/citruslover/")} >Merch </a></h1>
           </Container>
         </Jumbotron>
       </Row>

@@ -17,7 +17,8 @@ body {
     color:white
 }
 
-a, a:hover, a:focus, a:active{
+a, a:hover, a:focus, a:active, a.pointer, a:hover{
+    cursor:pointer;
     text-decoration: inherit;
     color: inherit;
 }
