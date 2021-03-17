@@ -8,8 +8,6 @@ function Video() {
   return (
     <Container className="video">
       <Row>
-
-
         <Col>
           <div className="embed-responsive embed-responsive-16by9">
             <iframe
@@ -22,8 +20,6 @@ function Video() {
             ></iframe>
           </div>
         </Col>
-
-
       </Row>
     </Container>
   );

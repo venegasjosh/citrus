@@ -1,0 +1,8 @@
+.helpme{
+  /* justify-content: right;
+  bottom: 0;
+  right: 0; */
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
