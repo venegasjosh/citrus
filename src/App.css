@@ -2,26 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 .Container {
-  /* background-color: rgb(0, 0, 0); */
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
     url("/src/images/sunset.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 body {
   font-family: "Spectral SC", serif;
   color: white;
-  
-  
 }
 
 a,
@@ -37,6 +29,4 @@ a:hover {
 
 .jumbotron {
   background-color: rgba(124, 40, 177, 0);
-  
 }
-

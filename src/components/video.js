@@ -2,15 +2,14 @@ import React from "react";
 
 import { Container, Row, Col } from "reactstrap";
 
-import { MDBContainer } from "mdbreact";
-
 function Video() {
   return (
     <Container className="video">
       <Row>
         <Col>
           <div className="embed-responsive embed-responsive-16by9">
-            <iframe
+            <iframe 
+            title="Brailleman"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/Y88fJdH9xag"

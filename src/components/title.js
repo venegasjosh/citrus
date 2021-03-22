@@ -1,11 +1,9 @@
 import React from "react";
 
-import { Container, Row, Col, Jumbotron } from "reactstrap";
-import Image from "react-bootstrap/Image";
+import { Row, Col, Jumbotron } from "reactstrap";
 
 function Title() {
   return (
-    // <Container className="someone">
     <Row>
       <Col>
         <Jumbotron>
@@ -13,7 +11,6 @@ function Title() {
         </Jumbotron>
       </Col>
     </Row>
-    // </Container>
   );
 }
 
