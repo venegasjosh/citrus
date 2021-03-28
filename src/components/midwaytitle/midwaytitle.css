@@ -1,0 +1,14 @@
+.acdc {
+    font-family: "Spectral SC", serif;
+  font-weight: 100;
+  /* margin-top: 3%; */
+  text-align: center;
+  font-size: 6vw;
+}
+.capsulecorp {
+    font-family: "Spectral SC", serif;
+  font-weight: 50;
+  /* margin-top: 3%; */
+  text-align: center;
+  font-size: 3vmin;
+}

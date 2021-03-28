@@ -1,0 +1,10 @@
+.carousel-item > img {
+    width:100%
+ }
+ .projector {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    top: 150px;
+    right:-15px;
+    width: 1440px;
+ }
