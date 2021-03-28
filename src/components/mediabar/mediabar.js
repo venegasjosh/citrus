@@ -1,6 +1,6 @@
 import React from "react";
 import "./mediabar.css";
-import Footer from "/Users/joshuavenegas/Documents/GitHub/citrus/src/components/footer/footer";
+import Footer from "../footer/footer";
 import { Navbar, Container } from "reactstrap";
 
 function Mediabar() {
