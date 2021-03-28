@@ -17,13 +17,13 @@ function Midwaytitle() {
           Rock from his origins of Nepal. Josh, bassist and singer-songwriter,
           has a musical history in Flamenco guitar and Jazz trombone; also loves
           Blues, Rock, and alternative music styles. On drums is Alex
-          Remiticado. His his rythmic prowess behind the drum kit background is
-          linked to his studies classical & modern jazz. Along his journey,
+          Remiticado. His his rythmic prowess behind the kit is
+          linked to his studies in classical & modern jazz. Along his journey,
           competitions have led him to exibit his skills at popular American
           Jazz festivals such as the The Monterey Jazz Festival and Essentially
           Ellington in New York. He also enjoys playing Funk, Greek folk music,
           and Rock. Through personal relationships and internet findings, the
-          group finally formed in 2019.
+          group finally formed in 2018.
         </p>
       </Jumbotron>
     </Row>

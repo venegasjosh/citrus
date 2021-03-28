@@ -13,12 +13,21 @@ import {
   CarouselCaption,
 } from "reactstrap";
 import Trio1 from "../../images/helenst1.jpg";
-import Dudes from '../../images/guys.JPG';
-import Trio2 from '../../images/helenst2.jpg'
+import Dudes from "../../images/guys.JPG";
+import Trio2 from "../../images/helenst2.jpg";
+import Guitarist from "../../images/guitarist.jpg";
+import Goose from "../../images/goose.JPG";
+import Brick from "../../images/brick_and_morter.jpg";
+import Experience from "../../images/experience.jpg";
+import Granola from "../../images/granola.JPG";
+import Dimensions from '../../images/dimensions.jpg'
 
 const items = [
   {
     src: Trio1,
+  },
+  {
+    src: Guitarist,
   },
   {
     src: Trio2,
@@ -26,6 +35,22 @@ const items = [
   {
     src: Dudes,
   },
+  {
+    src: Granola,
+  },
+  {
+    src: Goose,
+  },
+  {
+    src: Brick,
+  },
+  {
+    src: Dimensions,
+  },
+  {
+    src: Experience,
+  },
+  
 ];
 const Gallery = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -69,25 +94,29 @@ const Gallery = (props) => {
       <div>
         <Row>
           <Col>
-          <Jumbotron>
-            <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-              <CarouselIndicators
-                items={items}
+            <Jumbotron>
+              <Carousel
                 activeIndex={activeIndex}
-                onClickHandler={goToIndex}
-              />
-              {slides}
-              <CarouselControl
-                direction="prev"
-                directionText="Previous"
-                onClickHandler={previous}
-              />
-              <CarouselControl
-                direction="next"
-                directionText="Next"
-                onClickHandler={next}
-              />
-            </Carousel>
+                next={next}
+                previous={previous}
+              >
+                <CarouselIndicators
+                  items={items}
+                  activeIndex={activeIndex}
+                  onClickHandler={goToIndex}
+                />
+                {slides}
+                <CarouselControl
+                  direction="prev"
+                  directionText="Previous"
+                  onClickHandler={previous}
+                />
+                <CarouselControl
+                  direction="next"
+                  directionText="Next"
+                  onClickHandler={next}
+                />
+              </Carousel>
             </Jumbotron>
           </Col>
         </Row>
