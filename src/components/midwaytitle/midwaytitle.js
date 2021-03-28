@@ -6,7 +6,7 @@ function Midwaytitle() {
   return (
     <Row>
       <Col>
-        <h4 className="acdc">about us:</h4>
+        <h4 className="acdc">biography:</h4>
       </Col>
       <Jumbotron>
         <p className="capsulecorp">
@@ -25,7 +25,6 @@ function Midwaytitle() {
           and Rock. Through personal relationships and internet findings, the
           group finally formed in 2019.
         </p>
-        .<p></p>
       </Jumbotron>
     </Row>
   );
