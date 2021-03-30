@@ -59,3 +59,14 @@
    object-fit:cover;
  }
  }
+
+ .carousel-control{
+   
+   visibility: hidden;
+}
+
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+   visibility:hidden;
+ }
