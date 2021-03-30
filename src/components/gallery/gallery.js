@@ -80,12 +80,15 @@ const Gallery = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
+       <div class="image-wrap">
         <img class="image img-fluid" src={item.src} alt={item.altText} />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
         />
+        </div>
       </CarouselItem>
+      
     );
   });
 
@@ -99,6 +102,8 @@ const Gallery = (props) => {
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
+                ride="carousel"
+
               >
                 <CarouselIndicators
                   items={items}
