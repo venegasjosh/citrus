@@ -9,3 +9,7 @@
     width: 1440px;
     position:static;
  }
+
+ .carousel-inner {
+    height: 30vmax !important;
+ }

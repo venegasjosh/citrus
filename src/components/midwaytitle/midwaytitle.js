@@ -1,9 +1,10 @@
 import React from "react";
 import "./midwaytitle.css";
-import { Row, Col, Jumbotron } from "reactstrap";
+import { Row, Col, Jumbotron, Container } from "reactstrap";
 
 function Midwaytitle() {
   return (
+    <Container className="zala">
     <Row>
       <Col>
         <h4 className="acdc">biography:</h4>
@@ -27,6 +28,7 @@ function Midwaytitle() {
         </p>
       </Jumbotron>
     </Row>
+    </Container>
   );
 }
 
