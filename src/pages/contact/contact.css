@@ -1,0 +1,28 @@
+.harry {
+    min-height: auto 100%;
+    display: flexbox;
+    display: inline-block;
+    justify-content: space-around;
+  }
+  .trojan {
+      /* max-width: 100%; */
+      text-align: center;
+      min-height: 100vh;
+      display: flexbox;
+      place-items: center;
+      justify-content: space-between;
+      
+  }
+
+  html,body {
+      max-width: 100%;
+   overflow-x: hidden;
+   height: 100%;
+   
+  
+   
+}
+
+.full-height {
+    height: 100%;
+}

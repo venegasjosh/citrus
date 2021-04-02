@@ -67,6 +67,6 @@
 
 .carousel-indicators li { visibility: hidden; }
 
-.carousel-control-next-icon, .carousel-control-prev-icon{
+@media (max-width: 40em) {.carousel-control-next-icon, .carousel-control-prev-icon{
    visibility:hidden;
- }
+ }}

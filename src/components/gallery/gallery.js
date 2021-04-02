@@ -12,44 +12,118 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import Trio1 from "../../images/helenst1.jpg";
-import Dudes from "../../images/guys.JPG";
-import Trio2 from "../../images/helenst2.jpg";
-import Guitarist from "../../images/guitarist.jpg";
-import Goose from "../../images/goose.JPG";
+import Algo from "../../images/algo.jpg";
+import Arrow from "../../images/arrow.jpg";
 import Brick from "../../images/brick_and_morter.jpg";
+import Cambo from "../../images/cambriage.JPG";
+import Cartoon from "../../images/cartoon.JPG";
+import Chipper from "../../images/chipper.jpg";
+import Coolio from "../../images/coolio.JPG";
+import Defined from '../../images/defined.jpg';
+import Dimensions from "../../images/dimensions.jpg";
+import Duck from "../../images/duck.JPG";
+import Dudes from "../../images/dudes.jpg";
+import Evil from "../../images/evil.JPG";
 import Experience from "../../images/experience.jpg";
-import Granola from "../../images/granola.JPG";
-import Dimensions from '../../images/dimensions.jpg'
+import Guys from '../../images/guys.JPG';
+import Howard from '../../images/howard.jpg';
+import Nerf from "../../images/nerf.JPG";
+import Rot from "../../images/rot.JPG";
+import Salad from "../../images/salad.JPG";
+import Sheep from "../../images/sheep.JPG";
+import Stronghold from "../../images/stronghold.JPG";
+import Superb from "../../images/superb.JPG";
+import Tundra from "../../images/tundra.JPG";
+import Was from "../../images/was.jpg";
+import X_Sid from '../../images/x_Sid.jpg';
+import X_Josh from '../../images/x_Josh.jpg';
+import x_Alex from '../../images/x_alex.jpg';
+import Vrothers from '../../images/vrothers.JPG'
+import Victory from '../../images/victory.JPG'
 
 const items = [
   {
-    src: Trio1,
+    src: Algo
   },
   {
-    src: Guitarist,
+    src: Arrow
   },
   {
-    src: Trio2,
+    src: Brick
   },
   {
-    src: Dudes,
+    src: Cambo
   },
   {
-    src: Granola,
+    src: Cartoon
   },
   {
-    src: Goose,
+    src: Chipper
   },
   {
-    src: Brick,
+    src: Coolio
   },
   {
-    src: Dimensions,
+    src: Defined
   },
   {
-    src: Experience,
+    src: Dimensions
   },
+  {
+    src: Duck
+  },
+  {
+    src: Evil
+  },
+  {
+    src: Experience
+  },
+  {
+    src: Guys
+  },
+  {
+    src: Howard
+  },
+  {
+    src: Nerf
+  },
+  {
+    src: Rot
+  },
+  {
+    src: Salad
+  },
+  {
+    src: Sheep
+  },
+  {
+    src: Stronghold
+  },
+  {
+    src: Superb
+  },
+  {
+    src: Vrothers
+  },
+  {
+    src: Tundra
+  },
+  {
+    src: Was
+  },
+  {
+    src: x_Alex
+  },
+  {
+    src: X_Josh
+  },
+  {
+    src: X_Sid
+  },
+  {
+    src: Victory
+  }
+  
   
 ];
 const Gallery = (props) => {
