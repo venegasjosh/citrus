@@ -7,6 +7,8 @@ import Bio from "../pages/bio/bio";
 import { Link} from "react-router-dom";
 
 import { Container, Row, Col, Jumbotron } from "reactstrap";
+import ScrollToTop from './scroll/ScrollToTop'
+
 
 function Links() {
   return (
@@ -75,6 +77,7 @@ function Links() {
           <Jumbotron className="cow" fluid>
             <Container>
               <h1>
+              
                 <Link to="/bio">Bio</Link>
               </h1>
             </Container>
