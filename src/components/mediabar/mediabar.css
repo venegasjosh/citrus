@@ -1,18 +1,23 @@
 .container {
   vertical-align: center;
-
   display: flex;
   flex-direction: column;
 }
 
+.navbar {
+  width: 100%;
+}
+
 .navbar ul {
   list-style-type: none;
+  
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 .navbar li {
   display: inline-block;
+  width: 16%;
 }
 
 .fa {
