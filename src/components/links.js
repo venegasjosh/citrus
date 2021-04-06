@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../index.css'
 import Entry from "../pages/entry";
 import Bio from "../pages/bio/bio";
 
@@ -39,7 +39,7 @@ function Links() {
           <Col></Col>
         </Row>
         <Row>
-          <Jumbotron className="charmander">
+          <Jumbotron className="jumbotron jumbotron-fluid">
             <Container>
               <h1>
                 <a
@@ -78,7 +78,7 @@ function Links() {
             <Container>
               <h1>
               
-                <Link to="/bio">Bio</Link>
+                <Link to="/bio">About Us</Link>
               </h1>
             </Container>
           </Jumbotron>

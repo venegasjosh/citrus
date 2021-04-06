@@ -9,7 +9,7 @@ const Contact = () => (
   <Container className="trojan">
     <Titlemini />
     <Jumbotron className="harry" >
-      <h1 > Contact us!</h1><br/>
+      <h2 > Contact us!</h2><br/>
       <h4 >
         To email us about bookings, merch, and tour dates:
       </h4><br/>
