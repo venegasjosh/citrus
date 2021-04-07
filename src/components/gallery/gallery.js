@@ -12,117 +12,76 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import Algo from "../../images/algo.jpg";
-import Arrow from "../../images/arrow.jpg";
-import Brick from "../../images/brick_and_morter.jpg";
-import Cambo from "../../images/cambriage.JPG";
-import Cartoon from "../../images/cartoon.JPG";
-import Chipper from "../../images/chipper.jpg";
-import Coolio from "../../images/coolio.JPG";
-import Defined from '../../images/defined.jpg';
-import Dimensions from "../../images/dimensions.jpg";
-import Duck from "../../images/duck.JPG";
-import Dudes from "../../images/dudes.jpg";
-import Evil from "../../images/evil.JPG";
-import Experience from "../../images/experience.jpg";
-import Guys from '../../images/guys.JPG';
-import Howard from '../../images/howard.jpg';
-import Nerf from "../../images/nerf.JPG";
-import Rot from "../../images/rot.JPG";
-import Salad from "../../images/salad.JPG";
-import Sheep from "../../images/sheep.JPG";
-import Stronghold from "../../images/stronghold.JPG";
-import Superb from "../../images/superb.JPG";
-import Tundra from "../../images/tundra.JPG";
-import Was from "../../images/was.jpg";
-import X_Sid from '../../images/x_Sid.jpg';
-import X_Josh from '../../images/x_Josh.jpg';
-import x_Alex from '../../images/x_alex.jpg';
-import Vrothers from '../../images/vrothers.JPG'
-import Victory from '../../images/victory.JPG'
+import Band from "../../images/Band_Helen_st.jpg";
+import Band2 from "../../images/band_shot_helen_st.jpg";
+import Bag from "../../images/bag.jpg";
+import Cit from "../../images/cit.jpg";
+import Cit2 from "../../images/cit2.jpg";
+import Cit3 from "../../images/cit3.jpg";
+import Cit4 from "../../images/cit4.jpg";
+import Drums from "../../images/drums_helen_st.jpg";
+import Fly from "../../images/fly.jpg";
+import Group from "../../images/group_jungle.jpg";
+import Happy from "../../images/happy.jpg";
+import Josh from "../../images/Josh _ alex_helen_st.jpg";
+import Log from "../../images/log.jpg";
+import Oz from "../../images/oz.jpg";
+import Sid from "../../images/Sid_and_Josh_helen_st.jpg";
+import Sit from "../../images/sit.jpg";
+
 
 const items = [
   {
-    src: Algo
+    src: Band
   },
   {
-    src: Arrow
+    src: Band2
   },
   {
-    src: Brick
+    src: Cit
   },
   {
-    src: Cambo
+    src: Cit2
   },
   {
-    src: Cartoon
+    src: Cit3
   },
   {
-    src: Chipper
+    src: Cit4
   },
   {
-    src: Coolio
+    src: Drums
   },
   {
-    src: Defined
+    src: Group
   },
   {
-    src: Dimensions
+    src: Josh
   },
   {
-    src: Duck
+    src: Sid
   },
   {
-    src: Evil
+    src: Bag
   },
   {
-    src: Experience
+    src: Log
   },
   {
-    src: Guys
+    src: Happy
   },
   {
-    src: Howard
+    src: Oz
   },
+
   {
-    src: Nerf
+    src: Fly
   },
+
   {
-    src: Rot
-  },
-  {
-    src: Salad
-  },
-  {
-    src: Sheep
-  },
-  {
-    src: Stronghold
-  },
-  {
-    src: Superb
-  },
-  {
-    src: Vrothers
-  },
-  {
-    src: Tundra
-  },
-  {
-    src: Was
-  },
-  {
-    src: x_Alex
-  },
-  {
-    src: X_Josh
-  },
-  {
-    src: X_Sid
-  },
-  {
-    src: Victory
+    src: Sit
   }
+  
   
   
 ];
