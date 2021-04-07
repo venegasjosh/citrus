@@ -135,7 +135,10 @@ const Gallery = (props) => {
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
+                className="carousel carousel-fade"
                 ride="carousel"
+                interval="9000"
+
 
               >
                 <CarouselIndicators
