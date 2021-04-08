@@ -1,8 +1,10 @@
 
 .carousel-fade .carousel-item {
 
-  transition: opacity 3000ms ease-out;
+  /* transition: opacity ease-in-out 5s; */
+  /* transition: opacity 3000ms ease-out; */
 }
+
 
 
 
@@ -19,22 +21,22 @@ carousel-item > img {
 
 
 .carousel .carousel-item {
-  
+  /* animation-delay: 2s; */
   /* transition-property: opacity; */
   /* transform: 2s ease; */
   /* opacity: 1s ease-out; */
   /* transition: ease-in-out; */
   /* transition: opacity ease-in 5s; */
-  /* transition: opacity ease-in-out 5s; */
   /* transition: ease-out 5s; */
   /* transition-duration: opacity 6s; */
-  transition-delay:  .9s;
+
   /* transition-property: opacity; */
   /* transition-duration: opacity 5s, 5s; */
   /* transition-property: opacity; */
   /* transition-timing-function: 3s; */
   /* opacity: 1; */
-	transition-duration: 5s;
+	transition-duration: 4s;
+  transition-delay:  1s;
 	/* transition-property:inherit; */
   
 }

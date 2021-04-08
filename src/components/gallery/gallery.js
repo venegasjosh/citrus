@@ -137,7 +137,7 @@ const Gallery = (props) => {
                 previous={previous}
                 className="carousel carousel-fade"
                 ride="carousel"
-                interval="9000"
+                interval=" 6500"
 
 
               >
