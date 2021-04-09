@@ -1,6 +1,6 @@
 import React from "react";
 import './minititle.css'
-import { Row, Col, Jumbotron } from "reactstrap";
+import { Row, Col} from "reactstrap";
 
 import { Link} from "react-router-dom";
 

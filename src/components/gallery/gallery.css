@@ -34,7 +34,7 @@ carousel-item > img {
   width: 100%;
   position: relative;
   overflow: hidden;
-  max-height: 20%; /* set arbitrary height*/
+  max-height: 20%;
 }
 #carousel .image-wrap img.facilitiesImage {
   width: auto;

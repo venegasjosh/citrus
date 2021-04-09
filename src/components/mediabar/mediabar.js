@@ -5,7 +5,7 @@ import { Navbar, Container } from "reactstrap";
 
 function Mediabar() {
   return (
-    <Navbar sticky="bottom" light expand="sm">
+    <Navbar sticky="bottom" light expand="lg">
       <Container className="container">
         <ul>
           <li>
