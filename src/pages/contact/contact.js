@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import { Jumbotron, Container, Col } from "reactstrap";
+import { Jumbotron, Container } from "reactstrap";
 import Titlemini from "../../components/minititle/minititle";
 import Mediabar from "../../components/mediabar/mediabar";
 
