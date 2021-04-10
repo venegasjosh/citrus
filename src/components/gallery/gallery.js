@@ -30,7 +30,7 @@ import Sit from "../../images/sit.jpg";
 
 const items = [
   {
-    src: Band,
+    src: Happy,
   },
   {
     src: Band2,
@@ -66,7 +66,7 @@ const items = [
     src: Log,
   },
   {
-    src: Happy,
+    src: Band,
   },
   {
     src: Oz,
