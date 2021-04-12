@@ -1,7 +1,6 @@
 import React from "react";
 import ReactPlayer from 'react-player'
 import { Container, Row, Col } from "reactstrap";
-import './video.css'
 function Video() {
   return (
     <Container className="video">
