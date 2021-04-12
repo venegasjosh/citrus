@@ -2,10 +2,6 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Container } from "reactstrap";
 
-// import Entry from "../pages/entry";
-// import Bio from "../pages/bio/bio";
-// import Contact from "../pages/contact/contact";
-// import ScrollToTop from "../components/scroll/ScrollToTop.js";
 import Loading from "./loading/loading";
 const Entry = lazy(() => import("../pages/entry"));
 const Bio = lazy(() => import("../pages/bio/bio"));

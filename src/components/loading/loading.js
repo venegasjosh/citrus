@@ -1,6 +1,6 @@
 import React from "react";
-import { DiamonLoading } from "react-loadingg";
+import { WaveLoading } from "react-loadingg";
 const Loading = () => {
-  return (<DiamonLoading  />);
+  return (<WaveLoading  />);
 };
 export default Loading;
