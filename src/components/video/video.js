@@ -1,14 +1,14 @@
 import React from "react";
 import ReactPlayer from 'react-player'
 import { Container, Row, Col } from "reactstrap";
-
+import './video.css'
 function Video() {
   return (
     <Container className="video">
       <Row>
         <Col>
           <div className="embed-responsive embed-responsive-16by9">
-           
+         
             <ReactPlayer 
             title="Brailleman"
               width="560"
@@ -19,8 +19,7 @@ function Video() {
               allowfullscreen="allowfullscreen"
 
               />
-             
-          </div>
+             </div>
         </Col>
       </Row>
     </Container>

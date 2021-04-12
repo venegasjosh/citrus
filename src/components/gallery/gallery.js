@@ -121,10 +121,12 @@ const Gallery = (props) => {
 
   return (
     <Container className="projector">
-      <div>
+      
         <Row>
           <Col>
+          
             <Jumbotron>
+            <div className="fancy-border">
               <Carousel
                 activeIndex={activeIndex}
                 next={next}
@@ -149,10 +151,12 @@ const Gallery = (props) => {
                   onClickHandler={next}
                 />
               </Carousel>
+              </div>
             </Jumbotron>
+            
           </Col>
         </Row>
-      </div>
+      
     </Container>
   );
 };

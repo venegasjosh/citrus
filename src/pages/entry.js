@@ -3,7 +3,7 @@ import React, { Suspense, lazy } from "react";
 import Loading from "../components/loading/loading";
 import Title from "../components/title";
 import Links from "../components/links";
-import Video from "../components/video";
+import Video from "../components/video/video";
 import Mediabar from "../components/mediabar/mediabar";
 import {Container} from "reactstrap";
 import "../index.css";
