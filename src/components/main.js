@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Container } from "reactstrap";
 
 import Loading from "./loading/loading";
+
 const Entry = lazy(() => import("../pages/entry"));
 const Bio = lazy(() => import("../pages/bio/bio"));
 const Contact = lazy(() => import("../pages/contact/contact"));
