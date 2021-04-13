@@ -132,7 +132,7 @@ const Gallery = (props) => {
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
-                className="carousel carousel-slide"
+                className="car"
                 ride="carousel"
               >
                 <CarouselIndicators

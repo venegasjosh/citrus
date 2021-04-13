@@ -11,15 +11,14 @@
   
 }
 .carousel .item img {
-  max-height: 768px;
-  min-width: auto;
+ object-fit: cover;
 }
 
 @media (min-width: 40em){
   .sal{
     width:70%;
     margin: auto;
-    ;
+    
   }
 }
 .fancy-border {
@@ -30,7 +29,14 @@
 .projector{
   width:100%; 
    padding:0!important;
+   
 }
 .fred{
   width: 100%;
+}
+.carousel {
+  max-height: 650px;
+  overflow: hidden;
+
+  
 }
