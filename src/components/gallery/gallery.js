@@ -120,13 +120,12 @@ const Gallery = (props) => {
   });
 
   return (
-    <Container className="projector">
+    // <Container className="projector">
       
-        <Row>
+        <Row >
           <Col >
           
-            <Jumbotron fluid>
-
+            <Jumbotron  fluid>
             <div className="fancy-border">
               <Carousel
                 activeIndex={activeIndex}
@@ -158,7 +157,6 @@ const Gallery = (props) => {
           </Col>
         </Row>
       
-    </Container>
   );
 };
 export default Gallery;
