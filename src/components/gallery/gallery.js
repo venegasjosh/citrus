@@ -103,13 +103,13 @@ const Gallery = (props) => {
 
   const slides = items.map((item) => {
     return (
-      <CarouselItem
+      <CarouselItem 
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <div class="image-wrap">
-          <img class="image img-fluid" src={item.src} alt={item.altText} />
+        <div className="image-wrap" >
+          <img class="fred" src={item.src} alt={item.altText} />
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}
@@ -120,12 +120,13 @@ const Gallery = (props) => {
   });
 
   return (
-    // <Container className="projector">
+    <div className="projector">
       
-        <Row >
-          <Col >
+        {/* // <Row > */}
+          {/* <Col > */}
           
-            <Jumbotron  fluid>
+            <Jumbotron className='sal' fluid>
+            {/* <Container className="fred" fluid> */}
             <div className="fancy-border">
               <Carousel
                 activeIndex={activeIndex}
@@ -152,11 +153,12 @@ const Gallery = (props) => {
                 />
               </Carousel>
               </div>
+              {/* </Container> */}
             </Jumbotron>
             
-          </Col>
-        </Row>
-      
+          {/* </Col> */}
+        {/* </Row> */}
+      </div>
   );
 };
 export default Gallery;

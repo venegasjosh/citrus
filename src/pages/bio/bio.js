@@ -4,11 +4,11 @@ import Loading from "../../components/loading/loading";
 import Titlemini from "../../components/minititle/minititle";
 import Midwaytitle from "../../components/midwaytitle/midwaytitle";
 import Mediabar from "../../components/mediabar/mediabar";
-
+import "./bio.css"
 const Gallery = lazy(() => import("../../components/gallery/gallery"))
 
 const Bio = (props) => (
-  <Container >
+   <div fluid className="sam"> 
   <Suspense fallback={<Loading />}>
     <Titlemini />
     
@@ -17,7 +17,7 @@ const Bio = (props) => (
     <Midwaytitle />
     <Mediabar />
     </Suspense>
-  </Container>
+  </div> 
 );
 
 export default Bio;
