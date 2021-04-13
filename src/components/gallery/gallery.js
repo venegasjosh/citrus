@@ -123,9 +123,10 @@ const Gallery = (props) => {
     <Container className="projector">
       
         <Row>
-          <Col>
+          <Col >
           
-            <Jumbotron>
+            <Jumbotron fluid>
+
             <div className="fancy-border">
               <Carousel
                 activeIndex={activeIndex}
