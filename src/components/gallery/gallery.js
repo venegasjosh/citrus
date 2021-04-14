@@ -11,7 +11,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import Band from "../../images/Band_Helen_st.jpg";
+import Band from "../../images/Tired_helen_st.jpg";
 import Band2 from "../../images/band_shot_helen_st.jpg";
 import Bag from "../../images/bag.jpg";
 import Cit from "../../images/cit.jpg";
@@ -109,7 +109,7 @@ const Gallery = (props) => {
         key={item.src}
       >
         <div className="image-wrap" >
-          <img class="fred" src={item.src} alt={item.altText} />
+          <img className="fred"  src={item.src} alt={item.altText} />
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}

@@ -13,7 +13,6 @@ const Bio = (props) => (
     <Titlemini />
     
     <Gallery />
-    
     <Midwaytitle />
     <Mediabar />
     </Suspense>
