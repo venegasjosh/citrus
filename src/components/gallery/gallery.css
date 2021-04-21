@@ -3,7 +3,7 @@
 }
 
 /* mobile */
-@media (max-width: 40em) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     visibility: hidden;
@@ -17,6 +17,12 @@
   }
 
 }
+
+
+/* mobile landscape */
+
+
+
 
 .carousel-item {
   overflow: hidden;
