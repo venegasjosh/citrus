@@ -27,7 +27,7 @@
     visibility: hidden;
   }
   .sal {
-    width: 80%;
+    max-width: 80%;
     margin: auto;
   }
   .fancy-border {
