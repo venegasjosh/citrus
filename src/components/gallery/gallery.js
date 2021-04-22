@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import "./gallery.css";
 import {
   Jumbotron,
-  Row,
-  Col,
-  Container,
   Carousel,
   CarouselItem,
   CarouselControl,
@@ -103,13 +100,13 @@ const Gallery = (props) => {
 
   const slides = items.map((item) => {
     return (
-      <CarouselItem 
+      <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <div className="image-wrap" >
-          <img className="fred"  src={item.src} alt={item.altText} />
+        <div className="image-wrap">
+          <img className="fred" src={item.src} alt={item.altText} />
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}
@@ -121,44 +118,36 @@ const Gallery = (props) => {
 
   return (
     <div className="projector">
-      
-        {/* // <Row > */}
-          {/* <Col > */}
-          
-            <Jumbotron className='sal' fluid>
-            {/* <Container className="fred" fluid> */}
-            <div className="fancy-border">
-              <Carousel
-                activeIndex={activeIndex}
-                next={next}
-                previous={previous}
-                className="car"
-                ride="carousel"
-              >
-                <CarouselIndicators
-                  items={items}
-                  activeIndex={activeIndex}
-                  onClickHandler={goToIndex}
-                />
-                {slides}
-                <CarouselControl
-                  direction="prev"
-                  directionText="Previous"
-                  onClickHandler={previous}
-                />
-                <CarouselControl
-                  direction="next"
-                  directionText="Next"
-                  onClickHandler={next}
-                />
-              </Carousel>
-              </div>
-              {/* </Container> */}
-            </Jumbotron>
-            
-          {/* </Col> */}
-        {/* </Row> */}
-      </div>
+      <Jumbotron className="sal" fluid>
+        <div className="fancy-border">
+          <Carousel
+            id="myCarousel"
+            activeIndex={activeIndex}
+            next={next}
+            previous={previous}
+            className="car"
+            ride="carousel"
+          >
+            <CarouselIndicators
+              items={items}
+              activeIndex={activeIndex}
+              onClickHandler={goToIndex}
+            />
+            {slides}
+            <CarouselControl
+              direction="prev"
+              directionText="Previous"
+              onClickHandler={previous}
+            />
+            <CarouselControl
+              direction="next"
+              directionText="Next"
+              onClickHandler={next}
+            />
+          </Carousel>
+        </div>
+      </Jumbotron>
+    </div>
   );
 };
 export default Gallery;
